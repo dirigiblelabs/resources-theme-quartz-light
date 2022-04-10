@@ -14,11 +14,12 @@ exports.getTheme = function () {
 		'module': 'theme-quartz-light',
 		'name': 'Quartz Light',
 		'type': 'light',
-		'version': 2,
+		'version': 3,
 		'oldThemeId': 'fiori',
 		'links': [
 			'/webjars/sap-theming__theming-base-content/11.1.38/content/Base/baseLib/sap_fiori_3/css_variables.css',
 			'/webjars/fundamental-styles/0.23.0/dist/theming/sap_fiori_3.css',
+			'/webjars/fundamental-styles/0.23.0/dist/scrollbar.css' // Temporary
 		]
 	};
 };
